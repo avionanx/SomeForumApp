@@ -1,0 +1,38 @@
+.main_ctn{
+    width: 100vw;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_form{
+    height: 32rem;
+    width: 20rem;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 0 0 20px 0 #000;
+    border-radius: .5rem;
+}
+.login_form input{
+    height: 2rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    outline: none;
+}
+.login_form button{
+    height: 2rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    outline: none;
+    background-color: #2f6380;
+    color: #fff;
+    cursor: pointer;
+}

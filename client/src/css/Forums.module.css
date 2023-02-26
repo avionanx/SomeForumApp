@@ -1,0 +1,19 @@
+.main_ctn{
+    width: 100vw;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.forums_ctn{
+    width: 64rem;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;   
+    background-color: rgb(27, 27, 27);
+    border-radius: .5rem;
+}

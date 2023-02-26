@@ -1,0 +1,19 @@
+.main_ctn{
+    width: 100vw;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_ctn{
+    height: 32rem;
+    width: 20rem;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 0 0 20px 0 #000;
+    border-radius: .5rem;
+}

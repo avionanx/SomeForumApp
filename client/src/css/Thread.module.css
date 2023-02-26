@@ -1,0 +1,8 @@
+.thread{
+    cursor: pointer;
+    width: calc(100% - 2rem);
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    
+}
